@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+form {
+    direction: rtl;
+    top: 0px;
+    left: 0px;
+    /* width: 1920px; */
+    height: 1086px;
+    /* UI Properties */
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* 
+form .d-flex {
+    min-height: 800px;
+} */
+
+form .d-flex .body-form {
+    padding-top: 350px;
+    /* Layout Properties */
+    top: 337px;
+    left: 410px;
+    width: 1100px;
+    height: 407px;
+    /* UI Properties */
+    opacity: 1;
+
+
+}
+
+
+form .d-flex .body-form .header-form h1 {
+
+    top: 337px;
+    left: 582px;
+    /* width: 950px; */
+    height: 204px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 160px/231px 'Satisfy',
+        cursiv;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 36px #00000087;
+    opacity: 1;
+
+
+}
+
+form .d-flex .body-form .header-form h2 {
+
+    top: 551px;
+    left: 695px;
+    /* width: 1000px; */
+    height: 38px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 30px/38px 'Varela Round',
+        sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    /* font-family: ; */
+    opacity: 1;
+
+
+
+
+}
+
+form .d-flex .body-form .header-form p {
+
+
+
+    /* Layout Properties */
+    top: 607px;
+    left: 446px;
+    width: 1028px;
+    height: 60px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 16px/20px 'Varela Round';
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+
+
+}
+
+
+form .d-flex .body-form #namefield {
+
+    top: 671px;
+    left: 1486px;
+    width: 24px;
+    height: 20px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 16px/20px Varela Round;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+}
+
+
+form .d-flex .body-form .name2 {
+
+
+    top: 671px;
+    left: 1017px;
+    width: 38px;
+    height: 20px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 16px/20px 'Varela Round';
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+
+
+
+
+}
+
+
+
+
+form .d-flex .control button {
+
+    /* Layout Properties */
+    top: 692px;
+    left: 410px;
+    width: 206px;
+    height: 50px;
+    /* UI Properties */
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+
+
+}
+
+form .d-flex .form-control .control #text {
+
+    /* Layout Properties */
+    top: 710px;
+    left: 474px;
+    width: 72px;
+    height: 20px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 16px/20px 'Varela Round';
+    letter-spacing: 0px;
+    color: #1C1C1C;
+    opacity: 1;
+
+
+
+}
+
+form .d-flex .form-control {
+    top: 693px;
+    left: 637px;
+    width: 400px;
+    height: 50px;
+    /* UI Properties */
+    background: #F6F6F624 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+    margin-left: 20px;
+
+
+}

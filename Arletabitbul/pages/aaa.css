@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+
+body {
+
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 2288px;
+    /* UI Properties */
+    background: #E5EEFF 0% 0% no-repeat padding-box;
+
+    opacity: 1;
+}
+
+
+
+
+main .container {
+    display: grid;
+    top: 298px;
+    left: 337px;
+    width: 1246px;
+    height: 1724px;
+    /* UI Properties */
+    opacity: 1;
+
+    /* display: flex; */
+    /* grid-template-columns: 613px 289px 289px; */
+    column-gap: 20px;
+    /* ריווח בין שרות */
+    row-gap: 15px;
+    /* ריווח בו עמודות *
+    /* gap: 20px; */
+    column-gap: 10px;
+    margin-top: 150px;
+    /* justify-content: space-evenly; */
+    /* text-align: center; */
+    /*  */
+    /* grid-template-columns: 50% 50%; */
+
+    /* grid-template-columns: 50px 80px 50px; */
+    /* width: 1800px; */
+
+    /* width: 1000px; */
+    /* 
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 200px 400px 100px; */
+    /* 
+    
+    gap: 20px;
+
+
+    
+    grid-template-areas:
+        "header header header header"
+        "box1 box2 box3  aside"
+        "main main main aside"
+        "footer footer footer footer"; */
+
+
+}
+
+
+main .container .row {
+    display: grid;
+    column-gap: 10px;
+    /* margin-top: 150px; */
+    row-gap: 15px;
+}
+
+
+
+
+
+
+main .container .row .bluo-header .grid-item1 {
+    top: 298px;
+    left: 969px;
+    width: 613px;
+    height: 542px;
+    background: #020253 0% 0% no-repeat padding-box;
+    opacity: 1;
+    /* gap: 10px; */
+}
+
+main .container .row .bluo-header .grid-item1 h1 {
+
+    top: 493px;
+    left: 1073px;
+    width: 394px;
+    height: 80px;
+    text-align: center;
+    font: normal normal bold 61px/80px 'Assistant';
+    letter-spacing: 0px;
+    color: #0EE1DA;
+    opacity: 1;
+
+}
+
+main .container .row .bluo-header .grid-item1 p {
+    top: 592px;
+    left: 1032px;
+    width: 475px;
+    height: 52px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 20px/26px 'Assistant';
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+
+}
+
+
+main .container .row .pictures4-row1 .grid-item2 {
+    /* Layout Properties */
+    top: 298px;
+    left: 653px;
+    width: 296px;
+    height: 271px;
+    /* UI Properties */
+    /* background: transparent url('img/Rectangle 514.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+
+
+}
+
+
+
+main .container .row .pictures4-row1 .grid-item3 {
+    /* Layout Properties */
+    top: 298px;
+    left: 337px;
+    width: 296px;
+    height: 271px;
+    /* UI Properties */
+    /* background: transparent url('img/Rectangle 515.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+
+}
+
+main .container .row .pictures4-row1 .grid-item4 {
+
+    top: 589px;
+    left: 653px;
+    width: 296px;
+    height: 270px;
+    /* UI Properties */
+    /* background: transparent url('img/Rectangle 506.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+}
+
+main .container .row .pictures4-row1 .grid-item5 {
+    top: 589px;
+    left: 337px;
+    width: 296px;
+    height: 271px;
+    /* UI Properties */
+    /* background: transparent url('img/Rectangle 516.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+}
+
+main .container .row .pictures4-row2 .grid-item6 {
+    /* Layout Properties */
+    top: 880px;
+    left: 1286px;
+    width: 297px;
+    height: 271px;
+    /* UI Properties */
+    /* background: transparent url('img/Rectangle 506.png') 0% 0% no-repeat padding-box; */
+    border: 1px solid #707070;
+    opacity: 1;
+
+}
+
+main .container .row .pictures4-row2 .grid-item7 {
+    top: 879px;
+    left: 970px;
+    width: 296px;
+    height: 270px;
+    /* UI Properties */
+    /* background: transparent url('img/Rectangle 506.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+
+}
+
+main .container .pictures4-row2 .grid-item8 {
+    /* Layout Properties */
+    top: 879px;
+    left: 970px;
+    width: 296px;
+    height: 270px;
+    /* UI Properties */
+    /* background: transparent url('../images/Rectangle\ 506-1.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+
+}
+
+main .container .pictures4-row3 .grid-item9 {
+
+    /* Layout Properties */
+    top: 880px;
+    left: 337px;
+    width: 296px;
+    height: 270px;
+    /* UI Properties */
+    /* background: transparent url('../images/Rectangle-513@2x-300x275.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+
+
+}
+
+main .container .pictures4-row3 .grid-item10 {
+
+    /* Layout Properties */
+    top: 1170px;
+    left: 1285px;
+    width: 296px;
+    height: 271px;
+    /* UI Properties */
+    /* background: transparent url("../images/Rectangle\ 506-1.png") 0% 0% no-repeat padding-box; */
+    opacity: 1;
+
+
+
+
+}
+
+main .container .pictures4-row3 .grid-item11 {
+    top: 1461px;
+    left: 1285px;
+    width: 297px;
+    height: 270px;
+    /* UI Properties */
+    /* background: transparent url('img/Rectangle 506.png') 0% 0% no-repeat padding-box; */
+    border: 1px solid #707070;
+    opacity: 1
+}
+
+main .container .pictures4-row3 .grid-item12 {
+
+    /* Layout Properties */
+    top: 1461px;
+    left: 969px;
+    width: 296px;
+    height: 270px;
+    /* UI Properties */
+    /* background: transparent url('img/Rectangle 506.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+
+}
+
+
+
+
+
+
+
+
+main .container .pictures4-row3 .item13 {
+
+    top: 1461px;
+    left: 969px;
+    width: 296px;
+    height: 270px;
+    /* UI Properties */
+    /* background: transparent url('img/Rectangle 506.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+
+
+
+
+}
+
+main .container .pictures4-row3 .item14 {
+
+    top: 1751px;
+    left: 1285px;
+    width: 297px;
+    height: 271px;
+    /* UI Properties */
+    /* background: transparent url('img/Rectangle 506.png') 0% 0% no-repeat padding-box; */
+    border: 1px solid #707070;
+    opacity: 1;
+
+
+
+
+}
+
+main .container .pictures4-row3 .item15 {
+    /* Layout Properties */
+    top: 1751px;
+    left: 1285px;
+    width: 297px;
+    height: 271px;
+    /* UI Properties */
+    /* background: transparent url('img/Rectangle 506.png') 0% 0% no-repeat padding-box; */
+    border: 1px solid #707070;
+    opacity: 1;
+
+
+}
+
+main .container .grid-item16 {
+    /* Layout Properties */
+    top: 1170px;
+    left: 337px;
+    width: 613px;
+    height: 818px;
+    /* UI Properties */
+    background: #8E097C 0% 0% no-repeat padding-box;
+    padding: 50px;
+    opacity: 1;
+}
+
+
+main .container .grid-item16 .form .header-form h1 {
+
+    top: 1233px;
+    left: 467px;
+    width: 340px;
+    height: 46px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal bold 35px/46px 'Assistant';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+
+
+}
+
+main .container .grid-item16 .form .header-form p {
+
+
+    /* Layout Properties */
+    top: 1302px;
+    left: 400px;
+    width: 475px;
+    height: 52px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 20px/26px 'Assistant';
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+
+
+
+
+}
+
+
+
+main .container .grid-item16 .form .form-control {
+
+
+    top: 1425px;
+    left: 393px;
+    width: 500px;
+    height: 429px;
+    opacity: 1;
+
+}
+
+
+main .container .grid-item16 .form .text3 {
+    top: 1454px;
+    left: 393px;
+    width: 500px;
+    height: 60px;
+    /* UI Properties */
+    background: #E5EEFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+
+}
+
+main .container .grid-item16 .form .text4 {
+
+    top: 1572px;
+    left: 393px;
+    width: 500px;
+    height: 60px;
+    /* UI Properties */
+    background: #E5EEFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+main .container .grid-item16 .form .name {
+    /* Layout Properties */
+    top: 1425px;
+    left: 835px;
+    width: 58px;
+    height: 24px;
+    /* UI Properties */
+    text-align: end;
+    font: normal normal bold 16px/24px 'Heebo';
+    letter-spacing: 0px;
+    color: #0EE1DA;
+    opacity: 1;
+
+
+
+}
+
+main .container .grid-item16 .form .name2 {
+
+
+    /* Layout Properties */
+    top: 1544px;
+    left: 852px;
+    width: 41px;
+    height: 24px;
+    /* UI Properties */
+    text-align: end;
+    font: normal normal bold 16px/24px 'Heebo';
+    letter-spacing: 0px;
+    color: #0EE1DA;
+    opacity: 1
+}
+
+
+
+main .container .grid-item16 .form .text5 .control {
+
+
+    /* Layout Properties */
+    top: 1874px;
+    left: 393px;
+    width: 501px;
+    height: 60px;
+    /* UI Properties */
+    background: #0EE1DA 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+
+
+}
+
+main .container .grid-item16 .form .control .btn-btn {
+
+
+    top: 1885px;
+    left: 591px;
+    width: 74px;
+    height: 35px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal bold 24px/33px 'Heebo';
+    letter-spacing: 0.36px;
+    color: #011560;
+    opacity: 1;
+
+
+
+
+}
